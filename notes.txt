@@ -1,0 +1,11 @@
+Why is it called a monorepo?
+Mono = one
+Repo = repository
+
+Instead of having:
+
+frontend in one Git repository
+backend in another Git repository
+docs in a third Git repository
+
+you keep all three in one Git repository.

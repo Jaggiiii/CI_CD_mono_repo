@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "build": "tsc",
+    "test": "jest --passWithNoTests",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
@@ -11,5 +13,8 @@
   "description": "",
   "dependencies": {
     "typescript": "^7.0.2"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
   }
 }

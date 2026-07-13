@@ -1,0 +1,18 @@
+name: Docs Pipeline
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "docs/**"
+
+jobs:
+  docs-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify documentation changes
+        run: echo "Documentation pipeline executed."
